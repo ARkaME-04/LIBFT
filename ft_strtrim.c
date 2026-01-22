@@ -6,7 +6,7 @@
 /*   By: rhrandri <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/21 14:46:33 by rhrandri          #+#    #+#             */
-/*   Updated: 2026/01/21 14:53:26 by rhrandri         ###   ########.fr       */
+/*   Updated: 2026/01/22 07:53:03 by rhrandri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,21 +17,20 @@ static int	to_trim(const char *set, char c);
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	int		i;
-	int		j;
-	char	*res;
+	size_t		i;
+	size_t		j;
 
 	i = 0;
-	j = ft_strlen(s1) - 1;
-	if (!s1 || !set)
+	if (!(s1) || !(set))
 		return (NULL);
 	if (ft_strlen(s1) == 0)
 		return (ft_strdup(""));
+	j = ft_strlen(s1) - 1;
 	while (to_trim(set, s1[i]))
 		i++;
-	while (to_trim(set, s1[j]))
+	while (j > i && to_trim(set, s1[j]))
 		j--;
-	return (new_str(s1, i, j - (i - 1)));
+	return (new_str(s1, i, j - i +1));
 }
 
 static char	*new_str(const char *s1, size_t start, size_t len)
