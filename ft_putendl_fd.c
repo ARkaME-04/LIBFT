@@ -6,13 +6,13 @@
 /*   By: rhrandri <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/26 11:30:13 by rhrandri          #+#    #+#             */
-/*   Updated: 2026/01/26 11:33:42 by rhrandri         ###   ########.fr       */
+/*   Updated: 2026/01/26 11:35:12 by rhrandri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putendl_fd(char *s, int	fd)
+void	ft_putendl_fd(char *s, int fd)
 {
 	int	i;
 
