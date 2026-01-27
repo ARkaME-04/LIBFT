@@ -86,11 +86,9 @@ They were used for:
 All algorithmic choices, implementations, and problem-solving were done manually in accordance with the 42 AI usage policy.
 
 ## Notes & Disclaimer
-The project strictly follows the **42 Norm**
-
-All memory allocations are handled carefully to avoid leaks
-
-No global variables are used
+- The project strictly follows the **42 Norm**
+- All memory allocations are handled carefully to avoid leaks
+- No global variables are used
 
 The library is intended to be reused in future 42 projects
 
