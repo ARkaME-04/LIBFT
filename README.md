@@ -22,50 +22,50 @@ The library is divided into three main parts:
 ## Instructions
 
 ### Compilation
-To compile the library, run:
+- To compile the library, run:
 make
 
 This will generate the static library libft.a
 
-Remove object files:
+- Remove object files:
 make clean
 
-Remove object files and the library:
+- Remove object files and the library:
 make fclean
 
-Recompile everything:
+- Recompile everything:
 make re
 
 ## Library Content
 ### Part 1 — Libc Functions
 
-Reimplemented standard C functions such as:
+- Reimplemented standard C functions such as:
 
-Character checks (ft_isalpha, ft_isdigit, …)
+1. Character checks (ft_isalpha, ft_isdigit, …)
 
-Memory manipulation (ft_memcpy, ft_memmove, ft_memset, …)
+2. Memory manipulation (ft_memcpy, ft_memmove, ft_memset, …)
 
-String handling (ft_strlen, ft_strlcpy, ft_strchr, …)
+3. String handling (ft_strlen, ft_strlcpy, ft_strchr, …)
 
-Conversion utilities (ft_atoi, ft_calloc, ft_strdup)
+4. Conversion utilities (ft_atoi, ft_calloc, ft_strdup)
 
 All functions follow the behavior described in their respective man pages.
 
 ## Part 2 — Additional Functions
 
-Utility functions not directly available in libc, including:
+- Utility functions not directly available in libc, including:
 
-String manipulation (ft_substr, ft_strjoin, ft_strtrim, ft_split)
+1. String manipulation (ft_substr, ft_strjoin, ft_strtrim, ft_split)
 
-Conversions (ft_itoa)
+2. Conversions (ft_itoa)
 
-Functional string iteration (ft_strmapi, ft_striteri)
+3. Functional string iteration (ft_strmapi, ft_striteri)
 
-File descriptor output helpers (ft_putchar_fd, ft_putstr_fd, ft_putendl_fd, ft_putnbr_fd)
+4. File descriptor output helpers (ft_putchar_fd, ft_putstr_fd, ft_putendl_fd, ft_putnbr_fd)
 
 ## Part 3 — Linked List Functions
 
-Implementation of a generic singly linked list using the following structure:
+- Implementation of a generic singly linked list using the following structure:
 
 typedef struct s_list
 {
@@ -73,15 +73,15 @@ typedef struct s_list
 	struct s_list	*next;
 }	t_list;
 
-Available linked list utilities:
+- Available linked list utilities:
 
-Node creation and insertion (ft_lstnew, ft_lstadd_front, ft_lstadd_back)
+1. Node creation and insertion (ft_lstnew, ft_lstadd_front, ft_lstadd_back)
 
-List inspection (ft_lstsize, ft_lstlast)
+2. List inspection (ft_lstsize, ft_lstlast)
 
-Memory management (ft_lstdelone, ft_lstclear)
+3. Memory management (ft_lstdelone, ft_lstclear)
 
-Iteration and mapping (ft_lstiter, ft_lstmap)
+4. Iteration and mapping (ft_lstiter, ft_lstmap)
 
 These functions provide a foundation for dynamic data structures used in later projects.
 
@@ -122,5 +122,5 @@ No global variables are used
 The library is intended to be reused in future 42 projects
 
 # Author
-rhrandi
-42 Antananarivo
+**rhrandri**
+**42 Antananarivo**
