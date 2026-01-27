@@ -69,10 +69,10 @@ These functions provide a foundation for dynamic data structures used in later p
 ## Resources
 
 ### Documentation & References
-Linux man pages (man strlen, man malloc, etc.)
-GNU C Library documentation
-BSD libc documentation (for strlcpy, strlcat)
-42 intranet project documentation
+- Linux man pages (man strlen, man malloc, etc.)
+- GNU C Library documentation
+- BSD libc documentation (for strlcpy, strlcat)
+- 42 intranet project documentation
 
 ### AI USAGE
 AI tools were used strictly as a support tool, never to directly generate solutions.
