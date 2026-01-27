@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/libfte.png" />
+</p>
+
 *This project has been created as part of the 42 curriculum by rhrandri.*
 
 # Libft
