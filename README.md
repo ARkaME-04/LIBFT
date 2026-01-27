@@ -29,15 +29,11 @@ The library is divided into three main parts:
 ### Compilation
 - To compile the library, run:
 ``make``
-
 This will generate the static library libft.a
-
 - Remove object files:
 ``make clean``
-
 - Remove object files and the library:
 ``make fclean``
-
 - Recompile everything:
 ``make re``
 
@@ -45,13 +41,9 @@ This will generate the static library libft.a
 ### Part 1 — Libc Functions
 
 - Reimplemented standard C functions such as:
-
 1. Character checks (`ft_isalpha`, `ft_isdigit`, …)
-
 2. Memory manipulation (`ft_memcpy`, `ft_memmove`, `ft_memset`, …)
-
 3. String handling (`ft_strlen`, `ft_strlcpy`, `ft_strchr`, …)
-
 4. Conversion utilities (`ft_atoi`, `ft_calloc`, `ft_strdup`)
 
 All functions follow the behavior described in their respective man pages.
@@ -59,33 +51,17 @@ All functions follow the behavior described in their respective man pages.
 ## Part 2 — Additional Functions
 
 - Utility functions not directly available in libc, including:
-
 1. String manipulation (`ft_substr`, `ft_strjoin`, `ft_strtrim`, `ft_split`)
-
 2. Conversions (`ft_itoa`)
-
 3. Functional string iteration (`ft_strmapi`, `ft_striteri`)
-
 4. File descriptor output helpers (`ft_putchar_fd`, `ft_putstr_fd`, `ft_putendl_fd`, `ft_putnbr_fd`)
 
 ## Part 3 — Linked List Functions
 
-- Implementation of a generic singly linked list using the following structure:
-
-typedef struct s_list
-{
-	void			*content;
-	struct s_list	*next;
-}	t_list;
-
 - Available linked list utilities:
-
 1. Node creation and insertion (`ft_lstnew`, `ft_lstadd_front`, `ft_lstadd_back`)
-
 2. List inspection (`ft_lstsize`, `ft_lstlast`)
-
 3. Memory management (`ft_lstdelone`, `ft_lstclear`)
-
 4. Iteration and mapping (`ft_lstiter`, `ft_lstmap`)
 
 These functions provide a foundation for dynamic data structures used in later projects.
@@ -94,31 +70,23 @@ These functions provide a foundation for dynamic data structures used in later p
 
 ### Documentation & References
 Linux man pages (man strlen, man malloc, etc.)
-
 GNU C Library documentation
-
 BSD libc documentation (for strlcpy, strlcat)
-
 42 intranet project documentation
 
 ### AI USAGE
 AI tools were used strictly as a support tool, never to directly generate solutions.
 They were used for:
-
-Debugging assistance
-
-Typo detection
-
-Code readability checks
-
-Verifying edge cases and logic consistency
-
-Minor documentation and formatting help
+- Debugging assistance
+- Typo detection
+- Code readability checks
+- Verifying edge cases and logic consistency
+- Minor documentation and formatting help
 
 All algorithmic choices, implementations, and problem-solving were done manually in accordance with the 42 AI usage policy.
 
 ## Notes & Disclaimer
-The project strictly follows the 42 Norm
+The project strictly follows the **42 Norm**
 
 All memory allocations are handled carefully to avoid leaks
 
