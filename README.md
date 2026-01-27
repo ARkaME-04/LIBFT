@@ -27,18 +27,18 @@ The library is divided into three main parts:
 
 ### Compilation
 - To compile the library, run:
-make
+``make``
 
 This will generate the static library libft.a
 
 - Remove object files:
-make clean
+``make clean``
 
 - Remove object files and the library:
-make fclean
+``make fclean``
 
 - Recompile everything:
-make re
+``make re``
 
 ## Library Content
 ### Part 1 — Libc Functions
@@ -125,6 +125,5 @@ No global variables are used
 
 The library is intended to be reused in future 42 projects
 
-# Author
-**rhrandri**
-**42 Antananarivo**
+---
+Made by rhrandri: rhrandri@student.42antananarivo.mg
