@@ -6,7 +6,7 @@
 /*   By: rhrandri <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/27 08:31:50 by rhrandri          #+#    #+#             */
-/*   Updated: 2026/01/27 10:56:58 by rhrandri         ###   ########.fr       */
+/*   Updated: 2026/01/27 12:01:50 by rhrandri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <stddef.h>
 # include <unistd.h>
 # include <stdlib.h>
-#include <stdint.h>
+# include <stdint.h>
 
 /* ---------------	LISTS		--------------- */
 typedef struct s_list
