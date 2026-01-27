@@ -6,7 +6,7 @@
 /*   By: rhrandri <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/23 09:43:13 by rhrandri          #+#    #+#             */
-/*   Updated: 2026/01/23 09:59:38 by rhrandri         ###   ########.fr       */
+/*   Updated: 2026/01/27 10:44:52 by rhrandri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	int		i;
-	size_t	len;
-	char	*res;
+	unsigned int		i;
+	size_t				len;
+	char				*res;
 
 	if (!s || !f)
 		return (NULL);
